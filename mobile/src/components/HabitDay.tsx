@@ -11,6 +11,7 @@ export function HabitDay(){
       <TouchableOpacity
         className="bg-zinc-800 rounded-lg border-2 m-1 border-zinc-700 "
         style={{ width: DAY_SIZE, height: DAY_SIZE }}
+        activeOpacity={0.7}
       />
   );
 }
