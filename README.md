@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - NodeJs
 - TypeScript
 - Expo 
-- TailwinCSS
+- TailwindCSS
 - Native Wind
 - Prisma 
 - Fastify
