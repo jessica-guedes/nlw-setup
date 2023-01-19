@@ -22,5 +22,5 @@ export function Header(){
         </Text>
       </TouchableOpacity>
     </View> 
-  )
+  );
 }
