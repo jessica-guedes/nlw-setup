@@ -1,41 +1,46 @@
 {
   "expo": {
-   "name": "Habits: Jessica",
-   "slug": "HabitsJessica",
-   "version": "1.0.0",
-   "platforms": [
-     "ios",
-     "android"
-   ],
-   "privacy": "public",
-   "orientation": "portrait",
-   "icon": "./assets/icon.png",
-   "userInterfaceStyle": "light",
-   "splash": {
-     "image": "./assets/splash.png",
-     "resizeMode": "contain",
-     "backgroundColor": "#09090A"
-   },
-   "updates": {
-     "fallbackToCacheTimeout": 0
-   },
-   "assetBundlePatterns": [
-     "**/*"
-   ],
-   "ios": {
-     "supportsTablet": true,
-     "package": "jessica.nlwsetup"
-   },
-   "android": {
-     "adaptiveIcon": {
-       "foregroundImage": "./assets/adaptive-icon.png",
-       "backgroundColor": "##09090A"
-     },
-           "package": "jessica.nlwsetup"
-
-   },
-   "web": {
-     "favicon": "./assets/favicon.png"
-   }
- }
+    "name": "Habits: Jessica",
+    "slug": "HabitsJessica",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "privacy": "public",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#09090A"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "package": "jessica.nlwsetup",
+      "bundleIdentifier": "jessica.nlwsetup"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "##09090A"
+      },
+      "package": "jessica.nlwsetup"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "90273302-31a2-437b-959f-d0c51fac0fe4"
+      }
+    }
+  }
 }
