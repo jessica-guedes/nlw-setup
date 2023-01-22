@@ -43,7 +43,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 habit tracker, uma ferramenta de acompanhamento de hábitos para o usuário colocar em prática suas resoluções e metas, ou seja, registrar ações e acompanhar a evolução dos novos hábitos que deseja colocar na sua rotina.
 
-- [Acesse o projeto finalizado, online]()
+- [Acesse o projeto finalizado, online](https://nlw-setup-delta.vercel.app/)
 
 
 ## 🔖 Layout
