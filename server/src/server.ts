@@ -2,12 +2,17 @@ import Fastify from "fastify";
 import cors from '@fastify/cors';
 import { appRoutes } from "./routes";
 
-const app = Fastify();
+const app = Fastify()
+const port = parseInt(process.env.PORT || '3333', 10);
 
-app.register(cors);
-app.register(appRoutes);
+app.register(cors)
+app.register(appRoutes)
 
-export default async (req: any, res: any) => {
-  await app.ready();
-  app.server.emit('request', req, res);
-}
+
+app.listen({
+  port: port,
+  host: '0.0.0.0',
+
+}).then(() => {
+  console.log('HTTP Server Runnning !')
+})
