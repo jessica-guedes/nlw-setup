@@ -5,7 +5,7 @@ import { appRoutes } from "./routes";
 const app = Fastify()
 const port = parseInt(process.env.PORT || '3333', 10);
 
-app.register(cors)
+app.register(cors, { origin: true }); // Permitir todas as origens como teste
 app.register(appRoutes)
 
 
